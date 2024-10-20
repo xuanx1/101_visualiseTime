@@ -1,9 +1,5 @@
 //made with the help of copilot
 
-import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7/+esm';
-
-// const initialTime = Date.now(); // Removed unused variable
-
 const body = d3.select('body');
 
 const sunset = body.append('div').attr('id', 'sunset');
