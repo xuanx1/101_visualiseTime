@@ -1,7 +1,6 @@
 //made with the help of copilot
 
 const body = d3.select('body');
-
 const sunset = body.append('div').attr('id', 'sunset');
 
 const svg = sunset.append('svg')
