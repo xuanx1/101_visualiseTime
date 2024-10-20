@@ -4,7 +4,7 @@ const body = d3.select('body');
 const sunset = body.append('div').attr('id', 'sunset');
 
 const svg = sunset.append('svg')
-    .attr('viewBox', '0 0 500 500')
+    .attr('viewBox', '0 0 800 800')
     .attr('width', 500)
     .attr('height', 500)
     .style('background', '#f3dfcc');
