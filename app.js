@@ -5,8 +5,8 @@ const sunset = body.append('div').attr('id', 'sunset');
 
 const svg = sunset.append('svg')
     .attr('viewBox', '0 0 800 800')
-    .attr('width', 500)
-    .attr('height', 500)
+    .attr('width', 800)
+    .attr('height', 800)
     .style('background', '#f3dfcc');
 
 
